@@ -2,7 +2,6 @@
 choco install git -params '"/GitAndUnixToolsOnPath"'
 
 # webdev
-choco install nodejs.install 
 choco install nodejs --version 7.5.0
 choco install php
 choco install prefix
