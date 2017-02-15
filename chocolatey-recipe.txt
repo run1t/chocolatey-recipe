@@ -18,6 +18,8 @@ choco install putty
 choco install curl
 choco install postman
 choco install slack
+choco install zeal.install
+choco install heidisql
 
 # browsers
 choco install google-chrome-x64
