@@ -5,6 +5,7 @@ choco install tortoisegit
 # webdev
 choco install nodejs
 choco install php
+choco install composer
 
 #databases
 choco install redis
