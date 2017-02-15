@@ -1,5 +1,5 @@
 # source control tools
-choco install git -params '"/GitAndUnixToolsOnPath"'
+choco install git.install
 choco install tortoisegit
 
 # webdev
