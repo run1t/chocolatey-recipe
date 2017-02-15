@@ -1,18 +1,24 @@
 # source control tools
 choco install git -params '"/GitAndUnixToolsOnPath"'
+choco install tortoisegit
 
 # webdev
 choco install nodejs
 choco install php
-choco install prefix
+
+#databases
+choco install redis
+
+#ide
 choco install visualstudiocode
+choco install aptana-studio
 
 # utilities
-choco install  putty 
-choco install elixir
+choco install putty 
+choco install curl
+choco install postman
+choco install slack
 
 # browsers
 choco install google-chrome-x64
-
-Install-WindowsUpdate -getUpdatesFromMS -acceptEula -SuppressReboots
-Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives  -EnableShowFileExtensions -EnableShowFullPathInTitleBar
+choco install firefox
